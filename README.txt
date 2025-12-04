@@ -1,24 +1,26 @@
-My Terminal Project
-===================
+# My Terminal Project
+
+## MyTerm
 
 MyTerm is a feature-rich terminal emulator built with X11 that provides a modern commandline experience with tabs, history, auto-completion, and more.
 
-COMPILATION INSTRUCTIONS
-------------------------
+## COMPILATION INSTRUCTIONS
 
 1. Make sure you have X11 development libraries installed:
    - All the functionalities are tested and implemented in Ubuntu
-   - On Ubuntu: sudo apt-get install libx11-dev 
-     will install X11 library on your computer
+   - On Ubuntu: `sudo apt-get install libx11-dev` will install X11 library on your computer
 
 2. Compile the program:
+   ```
    gcc MyTerm.c -o MyTerm -lX11
+   ```
 
 3. Run the terminal:
+   ```
    ./MyTerm &
+   ```
 
-FEATURES
---------
+## FEATURES
 
 - Multi-tab interface (Ctrl+T for new tab, Ctrl+W to close, Ctrl+Tab to switch)
 - Command history with search (Ctrl+R)
@@ -31,8 +33,7 @@ FEATURES
 - Scrollable output with Up/Down arrows
 - Persistent command history
 
-KEYBOARD SHORTCUTS
-------------------
+## KEYBOARD SHORTCUTS
 
 - Ctrl+T: Create new tab
 - Ctrl+W: Close current tab  
@@ -46,8 +47,7 @@ KEYBOARD SHORTCUTS
 - Tab: Auto-complete filenames
 - Up/Down: Scroll through output
 
-USAGE EXAMPLES
---------------
+## USAGE EXAMPLES
 
 Regular commands:
   ls -la
@@ -71,8 +71,7 @@ Other commands:
   history         - Show command history
   exit            - Close the terminal
 
-NOTES
------
+## NOTES
 
 - Command history is automatically saved to '.myterm_history.txt'
 - Each tab maintains independent command history and state
