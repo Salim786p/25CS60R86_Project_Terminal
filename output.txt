@@ -1,0 +1,12 @@
+
+}
+    cout<<"Here I am."<<endl;
+    cout<<"My name is "<<a<<endl;
+    ifstream in(argv[1]);
+    in>>a;
+#include <fstream>
+#include <iostream>
+    int a;
+int main(int argc, char* argv[]) {
+    return 0;
+using namespace std;

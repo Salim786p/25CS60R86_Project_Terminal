@@ -1,0 +1,19 @@
+ls
+ls
+pwd
+touch input.txt
+ls
+echo "1 9 2 5" > input.txt
+cat input.txt
+touch test.txt
+cat input.txt > test.txt
+cat test.txt
+cat test.txt | sort
+ls *.txt | wc -l
+ls *.txt | xrags rm
+ls *.txt | xargs rm
+ls
+echo "my
+name is 
+Salim"
+cd
